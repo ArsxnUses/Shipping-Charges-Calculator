@@ -27,5 +27,7 @@ public class ShippingCalc {
         System.out.println("\nYour package will ship at a rate of $" + shippingCost + " per pound.");
         System.out.printf("The total cost of shipping your %.2f lbs package is $%.2f.", packageWeight, totalCost);
         System.out.println("\nThank you for choosing Fast Freight Shipping Company");
+
+        keyboard.close();
     }
 }
